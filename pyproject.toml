@@ -17,6 +17,7 @@ classifiers = [
     "Programming Language :: Python :: Implementation :: CPython"
 ]
 dynamic = ["version"]
+dependencies = ['LuminaDB']
 
 [project.urls]
 Homepage = "https://github.com/RimuEirnarn/LuminaDB-mirror"

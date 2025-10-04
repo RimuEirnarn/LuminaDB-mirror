@@ -1,5 +1,8 @@
 """Database"""
 
+from warnings import warn
+
+
 from . import models
 from .models import BaseModel, model, Foreign, Primary, Unique, hook, validate
 from .database import Database
@@ -14,6 +17,7 @@ def test_installed():
     """Is the module installed?"""
     return True
 
+warn("This package is now renamed to LuminaDB. Please upgrade to LuminaDB", DeprecationWarning)
 
 __version__ = "0.7.13"
 __all__ = [
